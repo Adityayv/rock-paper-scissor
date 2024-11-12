@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding:0px;
+    text-align: center;
+}
+
+.heading {
+    height:5rem;
+    font-size: 1.5rem;
+    background-color: #9368B7;
+    text-align: center;
+    line-height: 5rem;
+    color:#fff;
+    
+}
+
+.select{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.im{
+    height: 10rem;
+    width:10rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.im:hover{
+    /* opacity: 0.5; */
+    border: 3px solid black;
+}
+
+.score{
+    margin-top: 4rem;;
+    display: flex;
+    justify-content: center;
+    gap:3rem;
+    margin-bottom: 4rem;
+}
+
+
+.ss{
+    font-size: 2rem;
+}
+
+.ff{
+    font-size: 1.5rem;
+}
+
+.message{
+    background-color: #081b31;
+    color: #fff;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+    
+}
+
+.message p{
+    display: inline;
+}
+
+/* rock - #f083a2 */
+/* scissor - #7facff*/
+/* paper = #c38edc */
